@@ -17,8 +17,7 @@ See dataPrepare.ipynb and data.py for detail.
 
 This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
 
-Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
-makes sure that mask pixels are in \[0, 1\] range.
+Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function makes sure that mask pixels are in [0, 1] range.
 
 ### Training
 
@@ -39,7 +38,7 @@ This tutorial depends on the following libraries:
 
 Also, this code should be compatible with Python versions 2.7-3.5.
 
-### Run main.py or using notebook trainUnet
+### Run main.py or using notebook trainUnet.ipynb
 
 You will see the predicted results of test image in data/membrane/test
 
